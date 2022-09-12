@@ -54,7 +54,7 @@ section#portfolio .card {
   cursor: pointer;
 }
 .contact-us {
-  background-image: url(../img/map.jpeg);
+  background-image: url(./img/map.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   padding-bottom: 6rem;
