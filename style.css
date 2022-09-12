@@ -1,0 +1,86 @@
+/******************CAROUSEL**************/
+
+.jumbotron {
+  background-image: url("../img/banner.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.carousel-item {
+  max-height: calc(100vh - 56px);
+}
+
+.carousel-caption {
+  color: rgb(82, 27, 133);
+  font-size: 2rem;
+  margin-bottom: 15rem;
+}
+
+section#service i {
+  color: white;
+  font-size: 5rem;
+  border-radius: 50%;
+  width: 9rem;
+  height: 9rem;
+  text-align: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+section#portfolio .card {
+  margin: auto;
+}
+
+.our-team img {
+  border: 10px solid #ccc;
+  border-radius: 50%;
+}
+.our-team .icons {
+  max-width: 35%;
+  min-width: 200px;
+}
+.our-team .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+}
+.brands img {
+  max-width: 50%;
+  min-width: 150px;
+}
+.brands img:hover {
+  cursor: pointer;
+}
+.contact-us {
+  background-image: url(../img/map.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 6rem;
+}
+.contact-us .entries input {
+  height: 3rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+}
+.contact-us textarea {
+  width: 100%;
+  height: 12rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.contact-us .submit button {
+  height: 3rem;
+  width: 10.5rem;
+}
+footer a:visited {
+  color: #000 !important;
+}
+footer a:hover {
+  color: blue;
+  text-decoration: underline;
+}
